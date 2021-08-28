@@ -11,7 +11,7 @@ dayInt = datetime.now().day
 dayStr = str(dayInt)
 if dayInt < 10:
     dayStr = '0' + dayStr
-dayStr = '27'
+#dayStr = '27'
 month = datetime.now().month
 monthStr = str(month)
 if month < 10:
